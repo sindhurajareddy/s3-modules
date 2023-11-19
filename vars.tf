@@ -4,7 +4,7 @@ variable "bucket" {
 }
 variable "force_destroy" {
   description = "A boolean that indicates all objects should be deleted from the bucket"
-  type = bool
+  type = boolean
 }
 
 variable "versioning" {
